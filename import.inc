@@ -5,7 +5,14 @@
 % http://www.math.ubc.ca/~cass/graphics/manual/
 %
 % Created: 2018-04-30T18:16:58+0200
-% Last modified: 2018-04-30T23:45:41+0200
+% Last modified: 2018-05-02T21:28:52+0200
+
+% Usage example:
+% begin_import
+% x y moveto
+% w y scale
+% (bla) run
+% end_import
 
 /begin_import {
     % Save the current state
