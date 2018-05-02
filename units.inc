@@ -2,8 +2,9 @@
 % vim:fileencoding=utf-8:fdm=marker:ft=postscr
 %
 % Copyright © 2018 R.F. Smith <rsmith@xs4all.nl>
+% SPDX-License-Identifier: MIT
 % Created: 2018-04-30T18:34:55+0200
-% Last modified: 2018-05-02T21:26:30+0200
+% Last modified: 2018-05-02T21:54:31+0200
 
 % set unit scale to 1 mm.
 /mmscale {2.834645669291339 dup scale} bind def
