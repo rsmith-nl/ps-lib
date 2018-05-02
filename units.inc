@@ -3,7 +3,7 @@
 %
 % Copyright © 2018 R.F. Smith <rsmith@xs4all.nl>
 % Created: 2018-04-30T18:34:55+0200
-% Last modified: 2018-04-30T23:49:07+0200
+% Last modified: 2018-05-02T21:26:30+0200
 
 % set unit scale to 1 mm.
 /mmscale {2.834645669291339 dup scale} bind def
@@ -14,3 +14,6 @@
 /cmscale {28.346456692913385 dup scale} bind def
 % Convert numbers to cm.
 /cm {28.346456692913385 mul} bind def
+
+% Convert numbers to inch.
+/in {72 mul} bind def
