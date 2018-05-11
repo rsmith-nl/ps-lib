@@ -4,7 +4,11 @@
 % Copyright © 2018 R.F. Smith <rsmith@xs4all.nl>.
 % SPDX-License-Identifier: MIT
 % Created: 2018-05-11T20:24:17+0200
-% Last modified: 2018-05-11T22:45:09+0200
+% Last modified: 2018-05-11T23:23:15+0200
+
+% Inspired by edged.pds by Peter Kleiwweg from
+% http://odur.let.rug.nl/kleiweg/postscript/postscript.html.
+% However this a much simpler in that it only deals with straight arrows.
 
 % This defines the length of the arrow-head.
 /arrow_headsize 30 def
