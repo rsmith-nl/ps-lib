@@ -1,10 +1,11 @@
 % file: format.inc
 % vim:fileencoding=utf-8:fdm=marker:ft=postscr
+% Set ISO 216 page formats.
 %
 % Copyright © 2018 R.F. Smith <rsmith@xs4all.nl>.
 % SPDX-License-Identifier: MIT
 % Created: 2018-05-09T22:46:06+0200
-% Last modified: 2018-05-09T22:57:35+0200
+% Last modified: 2018-05-11T10:24:10+0200
 
 /format_A5_P { % P = portrait
 << /Pagesize [420 595] >> setpagedevice

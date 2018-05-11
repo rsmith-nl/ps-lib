@@ -1,10 +1,12 @@
 % file: grid.inc
 % vim:fileencoding=utf-8:fdm=marker:ft=postscr
+% Draw a grid to assist with composition of drawings.
+% Designed to look like graph paper.
 %
 % Copyright © 2018 R.F. Smith <rsmith@xs4all.nl>.
 % SPDX-License-Identifier: MIT
 % Created: 2018-04-30T18:54:21+0200
-% Last modified: 2018-05-01T21:26:02+0200
+% Last modified: 2018-05-11T10:25:00+0200
 
 % Usage: “dx dy grid”
 /grid {

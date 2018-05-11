@@ -1,10 +1,11 @@
 % file: support.inc
 % vim:fileencoding=utf-8:fdm=marker:ft=postscr
+% Supports used in mechanical load schematics.
 %
 % Copyright © 2018 R.F. Smith <rsmith@xs4all.nl>.
 % SPDX-License-Identifier: MIT
 % Created: 2018-05-11T09:19:28+0200
-% Last modified: 2018-05-11T10:08:38+0200
+% Last modified: 2018-05-11T10:26:37+0200
 
 (units.inc) runlibfile
 

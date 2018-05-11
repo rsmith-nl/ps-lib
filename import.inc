@@ -1,11 +1,11 @@
 % file: import.inc
 % vim:fileencoding=utf-8:fdm=marker:ft=postscr
-%
+% Import EPS figures into the current drawing.
 % From appendix 7 of “Mathematical Illustrations”
 % http://www.math.ubc.ca/~cass/graphics/manual/
 %
 % Created: 2018-04-30T18:16:58+0200
-% Last modified: 2018-05-11T10:16:56+0200
+% Last modified: 2018-05-11T10:25:36+0200
 
 % Usage example:
 % import_begin
