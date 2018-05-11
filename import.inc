@@ -5,16 +5,16 @@
 % http://www.math.ubc.ca/~cass/graphics/manual/
 %
 % Created: 2018-04-30T18:16:58+0200
-% Last modified: 2018-05-02T21:28:52+0200
+% Last modified: 2018-05-11T10:16:56+0200
 
 % Usage example:
-% begin_import
+% import_begin
 % x y moveto
 % w y scale
 % (bla) run
-% end_import
+% import_end
 
-/begin_import {
+/import_begin {
     % Save the current state
     save /savedstate exch def
     % Save the sizes of the two stacks
@@ -32,7 +32,7 @@
     } if
 } bind def
 
-/end_import {
+/import_end {
     count opstacksize sub
     dup 0 gt { {pop} repeat } {pop} ifelse
     countdictstack dictstacksize sub
