@@ -6,7 +6,7 @@
 % Copyright © 2018 R.F. Smith <rsmith@xs4all.nl>.
 % SPDX-License-Identifier: MIT
 % Created: 2018-04-30T18:54:21+0200
-% Last modified: 2018-05-11T10:25:00+0200
+% Last modified: 2018-05-11T13:58:03+0200
 
 % Usage: “dx dy grid”
 /grid {
@@ -16,8 +16,6 @@
     % Get the page sizes
     /width  currentpagedevice /PageSize get 0 get def
     /height currentpagedevice /PageSize get 1 get def
-    % Restore default transformation matrix
-    initmatrix
     % Set line width and color
     .5 setlinewidth
     .7 1 1 setrgbcolor
