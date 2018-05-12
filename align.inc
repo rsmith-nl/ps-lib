@@ -5,7 +5,7 @@
 % Copyright © 2018 R.F. Smith <rsmith@xs4all.nl>.
 % SPDX-License-Identifier: MIT
 % Created: 2018-05-08T23:53:58+0200
-% Last modified: 2018-05-12T01:09:37+0200
+% Last modified: 2018-05-12T21:07:03+0200
 
 % Usage: (text) align_center
 % Shows the text with the centre of the bounding box on the current position.
@@ -25,20 +25,14 @@
 % Shows the text with middle aligned on the current position.
 /align_middle {
     dup % (text) (text)
-    gsave newpath 0 0 moveto
-    false charpath pathbbox grestore % (text) llx lly urx ury
-    pop exch pop % (text) llx urx
-    sub 2 div 0 % (text) (llx-urx)/2 0
-    rmoveto show
+    stringwidth pop % (text) w
+    -2 div 0 rmoveto show
 } bind def
 
 % Usage: (text) align_right
 % Shows the text right aligned on the current position.
 /align_right {
     dup % (text) (text)
-    gsave newpath 0 0 moveto
-    false charpath pathbbox grestore % (text) llx lly urx ury
-    pop exch pop % (text) llx urx
-    sub 0 % (text) (llx-urx) 0
-    rmoveto show
+    stringwidth pop % (text) w
+    neg 0 rmoveto show
 } bind def
