@@ -4,9 +4,9 @@
 % Copyright © 2018 R.F. Smith <rsmith@xs4all.nl>.
 % SPDX-License-Identifier: MIT
 % Created: 2018-05-11T20:24:17+0200
-% Last modified: 2018-07-29T14:52:04+0200
+% Last modified: 2018-07-29T14:57:36+0200
 
-% Inspired by edged.pds by Peter Kleiwweg from
+% Inspired by edged.ps by Peter Kleiwweg from
 % http://odur.let.rug.nl/kleiweg/postscript/postscript.html.
 % However this much simpler in that it only deals with straight arrows.
 
