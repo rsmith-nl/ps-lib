@@ -4,11 +4,11 @@
 % Copyright © 2018 R.F. Smith <rsmith@xs4all.nl>.
 % SPDX-License-Identifier: MIT
 % Created: 2018-05-11T20:24:17+0200
-% Last modified: 2018-05-21T14:22:04+0200
+% Last modified: 2018-07-29T14:52:04+0200
 
 % Inspired by edged.pds by Peter Kleiwweg from
 % http://odur.let.rug.nl/kleiweg/postscript/postscript.html.
-% However this a much simpler in that it only deals with straight arrows.
+% However this much simpler in that it only deals with straight arrows.
 
 % This defines the length of the arrow-head.
 /arrow_headsize 30 def
@@ -32,6 +32,7 @@
 } bind def
 
 % Usage: x1 y1 x2 y2 arrow
+% Draws an arrow from x1,y1 to x2,y2 with the arrow head at x2,y2.
 /arrow {
     2 dict begin
         /x1 4 index def /y1 3 index def
