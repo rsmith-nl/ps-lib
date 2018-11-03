@@ -6,7 +6,7 @@
 % Copyright © 2018 R.F. Smith <rsmith@xs4all.nl>.
 % SPDX-License-Identifier: MIT
 % Created: 2018-04-30T18:54:21+0200
-% Last modified: 2018-09-26T22:31:28+0200
+% Last modified: 2018-11-03T23:44:39+0100
 
 % This is the color that the grid is drawn in.
 /grid_major_color {1 .6 .6} def
@@ -90,6 +90,19 @@
         } for
         % horizontal lines
         dy dy h {
+            0 exch moveto
+            w 0 rlineto
+        } for
+        stroke
+        newpath
+        grid_major_lw setlinewidth
+        grid_major_color setrgbcolor
+        % every 10th line
+        0 dx major mul w {
+            0 moveto
+            0 h rlineto
+        } for
+        0 dy major mul h {
             0 exch moveto
             w 0 rlineto
         } for
