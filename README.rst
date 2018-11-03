@@ -5,7 +5,7 @@ My PostScript modules
 :tags: PostScript
 :author: Roland Smith
 
-.. Last modified: 2018-07-29T16:43:11+0200
+.. Last modified: 2018-11-03T21:24:58+0100
 
 Introduction
 ============
@@ -46,6 +46,12 @@ arrow.inc
 ---------
 
 Straight arrows
+
+
+dim.inc
+-------
+
+Horizontal and vertical dimensions.
 
 
 fonts.inc
